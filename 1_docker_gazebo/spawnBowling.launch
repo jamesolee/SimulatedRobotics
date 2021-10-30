@@ -17,4 +17,22 @@
 
     <node name="urdf_pin1_spawn" pkg="gazebo_ros" type="spawn_model"
           args="-x 0 -y 0 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin1" respawn="false" output="screen" />
+    <node name="urdf_pin2_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x -1 -y 2 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin2" respawn="false" output="screen" />
+    <node name="urdf_pin3_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x 1 -y 2 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin3" respawn="false" output="screen" />
+    <node name="urdf_pin4_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x -2 -y 4 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin4" respawn="false" output="screen" />
+    <node name="urdf_pin5_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x 0 -y 4 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin5" respawn="false" output="screen" />
+    <node name="urdf_pin6_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x 2 -y 4 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin6" respawn="false" output="screen" />
+    <node name="urdf_pin7_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x -3 -y 6 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin7" respawn="false" output="screen" />
+    <node name="urdf_pin8_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x -1 -y 6 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin8" respawn="false" output="screen" />
+    <node name="urdf_pin9_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x 1 -y 6 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin9" respawn="false" output="screen" />
+    <node name="urdf_pin10_spawn" pkg="gazebo_ros" type="spawn_model"
+          args="-x 3 -y 6 -z 10.0 -file $(find usrc_tutorial)/urdf/bowling.urdf -urdf -model pin10" respawn="false" output="screen" />
 </launch>
